@@ -1,6 +1,7 @@
 {
   "name": "traveler",
   "version": "1.0.0",
+  "homepage": "http://dchicchon.github.io/Traveler",
   "description": "A social media platform for people who love traveling and those who want to explore.",
   "main": "server.js",
   "scripts": {
@@ -40,6 +41,5 @@
   },
   "bugs": {
     "url": "https://github.com/dchicchon/Traveler/issues"
-  },
-  "homepage": "https://github.com/dchicchon/Traveler#readme"
+  }
 }
