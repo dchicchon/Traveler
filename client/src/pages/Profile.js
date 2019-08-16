@@ -174,7 +174,7 @@ export class Profile extends Component {
                     <CardPanel>
                         <div style={{ height: '100vh', width: '100%' }}>
                             <GoogleMapReact
-                                // apiKey = (ENTER HERE)
+                                apiKey = {process.env.GOOGLE_API_KEY}
                                 defaultCenter={this.props.center}
                                 defaultZoom={this.props.zoom}
                                 yesIWantToUseGoogleMapApiInternals
