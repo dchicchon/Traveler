@@ -30,7 +30,7 @@ module.exports = () => {
     },
         (req, email, password, done) => {
             log("\nLocal Signup Strategy Hit")
-            var passwordHash = bcrypt.hashSync(password, bcrypt.genSalt(8))
+            var passwordHash = bcrypt.hashSync(password, bcrypt.genSaltSync(8))
 
             // If we find a user in our database with the same email, they cannot make an account. Must be a different email
             db.User.findOne({
@@ -38,6 +38,8 @@ module.exports = () => {
                     email: email
                 }
             }).then(user => {
+                // log("after db search")
+                console.log("after db search")
                 if (user) {
                     log("\nUser already exists")
                     return done(null, false, {

@@ -43,7 +43,7 @@ router.post("/signup", (req, res, next) => {
     console.log(req.body)
     passport.authenticate("local-signup", (err, user, info) => {
         // console.log("\nmessage", info);
-        console.log(`\nuser`, user.dataValues)
+        // console.log(`\nuser`, user.dataValues)
         if (err) {
             console.log(`Error: ${err}`);
             return next(err)
