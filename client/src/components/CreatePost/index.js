@@ -14,7 +14,6 @@ import axios from 'axios'
 
 // import 'materialize-css/dist/css/materialize.min.css';
 import Modal from "../Modal";
-import Cookies from 'js-cookie'
 
 // TESTING FOR AUTOCOMPLETE
 /* global google */
@@ -29,11 +28,9 @@ class CreatePost extends Component {
         info: "",
         title: "",
         location: "",
-
         url: '',
         file: '',
         fileName: '',
-
         tag: '',
         user_id: '',
         lat: '',

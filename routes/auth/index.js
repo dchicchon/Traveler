@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const passport = require("passport");
-const Cookies = require("js-cookie")
 const db = require("../../models");
 
 router.get('/user', (req, res) => {
@@ -74,7 +73,6 @@ router.post("/signup", (req, res, next) => {
 
 
             // res.cookie("firstName", req.user.DataValues.firstName);
-            Cookies.set('id', req.user.id)
             // res.cookie("firstName", req.user.firstName);
             // res.cookie("lastName", req.user.lastName);
             // res.cookie("email", req.user.email);
