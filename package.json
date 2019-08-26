@@ -29,7 +29,6 @@
     "passport-local": "^1.0.0",
     "sequelize": "^5.13.1"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dchicchon/Traveler.git"
