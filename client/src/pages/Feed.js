@@ -4,7 +4,7 @@ import CardPanel from "../components/CardPanel"
 import Post from "../components/Post"
 import { Col, Row, Container } from "../components/Grid";
 import CreatePost from './../components/CreatePost';
-import API from '../Utils/API'
+import API from '../utils/API'
 import Modal from "../components/Modal";
 import SidePost from "../components/SidePost";
 import Toggle from "../components/Toggle";

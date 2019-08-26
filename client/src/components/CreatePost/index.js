@@ -19,7 +19,7 @@ import Modal from "../Modal";
 /* global google */
 
 // Utils
-import API from '../../Utils/API'
+import API from '../../utils/API'
 
 
 class CreatePost extends Component {

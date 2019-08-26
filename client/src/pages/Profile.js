@@ -19,7 +19,7 @@ import Background from "../assets/bg4.jpg"
 import styled from 'styled-components';
 
 // Utils
-import API from "../Utils/API";
+import API from "../utils/API";
 import Post from "../components/Post";
 
 const Wrapper = styled.div`

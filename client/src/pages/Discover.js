@@ -21,7 +21,7 @@ import M from "materialize-css";
 
 // Utils
 
-import API from "../Utils/API"
+import API from "../utils/API"
 import { setServers } from "dns";
 
 const divStyle = {
