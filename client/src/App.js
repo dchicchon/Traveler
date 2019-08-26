@@ -33,8 +33,8 @@ import NavBar from "./components/NavBar"
 
 
 // Utils
-import API from "./Utils/API"
-
+// import API from "./Utils/API"
+import API from 'client\src\Utils\API.js'
 // Stylesheet
 import './App.css';
 
