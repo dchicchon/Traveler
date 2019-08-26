@@ -7,7 +7,6 @@ export default {
       return axios.post(`/api/follow`, idPackage)
    },
 
-   // ================================
 
    // Profile Page =========================
 
@@ -29,9 +28,8 @@ export default {
    //    return axios.get("/api/feed/" + userId)
    // },
 
-   // ============================================
 
-   // Get Posts
+   // Get Posts ==============================
    getPosts: () => {
       return axios.get(`/api/post`)
    },
