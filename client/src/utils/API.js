@@ -24,19 +24,10 @@ export default {
       return axios.get("/api/user/" + userId)
    },
 
-   // getPostPhoto: (userId) => {
-   //    return axios.get("/api/feed/" + userId)
-   // },
-
-
    // Get Posts ==============================
    getPosts: () => {
       return axios.get(`/api/post`)
    },
-
-   // getFollowPosts: () => {
-   //    return axios.get(`api/post`)
-   // },
 
    getFollowPosts: (id) => {
       return axios.get(`api/follow/` + id)
